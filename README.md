@@ -102,11 +102,14 @@ ictor@victorpc:M03-markdown-and-mdx$ npm run dev
 ## Astro VS Code support
 
 - Steps
+
   - Install [Astro VS Code plugin](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)
   - Install Prettier and the astro plugin
+
     ```bash
     npm i --save-dev prettier prettier-plugin-astro
     ```
+
     - Add the following settings your (optionally user or workspace) settings:
       ```bash
         "editor.formatOnPaste": true,
@@ -158,3 +161,61 @@ ictor@victorpc:M03-markdown-and-mdx$ npm run dev
 
       # Files
       ```
+
+- Commit
+
+```bash
+commit 6ee193c9d562e12a66434afcfddfd7d1edb17941 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Thu Jan 4 16:38:23 2024 -0300
+
+    chore(editor): Configure Astro VS Code support
+
+ .prettierignore       |  13 +++
+ .prettierrc           |  23 ++++++
+ .vscode/settings.json |   8 ++
+ README.md             | 175 +++++++++++++++++++++++++++++++++-------
+ package-lock.json     |  63 +++++++++++++++
+ package.json          |   6 +-
+ src/pages/index.astro |   1 +
+ 7 files changed, 257 insertions(+), 32 deletions(-)
+```
+
+## Add Astro Tailwind integration
+
+```bash
+victor@victorpc:M03-markdown-and-mdx$ npx astro add tailwind
+✔ Resolving packages...
+16:40:48
+  Astro will run the following command:
+  If you skip this step, you can always run it yourself later
+
+ ╭──────────────────────────────────────────────────────────╮
+ │ npm install @astrojs/tailwind@^5.1.0 tailwindcss@^3.4.0  │
+ ╰──────────────────────────────────────────────────────────╯
+
+✔ Continue? … yes
+✔ Installing dependencies...
+16:41:00
+  Astro will generate a minimal ./tailwind.config.mjs file.
+
+✔ Continue? … yes
+16:41:14
+  Astro will make the following changes to your config file:
+
+ ╭ astro.config.mjs ─────────────────────────────╮
+ │ import { defineConfig } from 'astro/config';  │
+ │                                               │
+ │ import tailwind from "@astrojs/tailwind";     │
+ │                                               │
+ │ // https://astro.build/config                 │
+ │ export default defineConfig({                 │
+ │   integrations: [tailwind()]                  │
+ │ });                                           │
+ ╰───────────────────────────────────────────────╯
+
+✔ Continue? … yes
+16:41:24
+   success  Added the following integration to your project:
+  - @astrojs/tailwind
+```
