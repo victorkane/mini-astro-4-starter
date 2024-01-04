@@ -219,3 +219,30 @@ victor@victorpc:M03-markdown-and-mdx$ npx astro add tailwind
    success  Added the following integration to your project:
   - @astrojs/tailwind
 ```
+
+- Commit
+
+```bash
+commit 253b52c5bcae5fc4f785298d000155edd413ffc6 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Thu Jan 4 16:49:36 2024 -0300
+
+    build(style): Add Astro Tailwind integration
+
+ README.md           |  61 ++++
+ astro.config.mjs    |   6 +-
+ package-lock.json   | 706 ++++++++++++++++++++++++++++++++++++++++++
+ package.json        |   2 +
+ tailwind.config.mjs |   8 +
+ 5 files changed, 782 insertions(+), 1 deletion(-)
+```
+
+- Add Tailwind CSS IntelliSense extension for VS Code user/workspace
+
+```bash
+victor@victorpc:M03-markdown-and-mdx$ cat .vscode/extensions.json
+{
+  "recommendations": ["astro-build.astro-vscode", "bradlc.vscode-tailwindcss"],
+  "unwantedRecommendations": []
+}
+```
