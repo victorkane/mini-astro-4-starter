@@ -246,3 +246,18 @@ victor@victorpc:M03-markdown-and-mdx$ cat .vscode/extensions.json
   "unwantedRecommendations": []
 }
 ```
+
+- commit
+
+```bash
+commit 51671b6c5a91157e43cff82c9b24d9a8e5104686 (HEAD -> main)
+Author: victorkane <victorkane@gmail.com>
+Date:   Thu Jan 4 17:01:31 2024 -0300
+
+    build(editor): Add Tailwind CSS IntelliSense extionsion for VS Code user/workspace
+
+ .vscode/extensions.json |  2 +-
+ README.md               | 27 +++++++++++++++++++++++++++
+ src/pages/index.astro   |  2 +-
+ 3 files changed, 29 insertions(+), 2 deletions(-)
+```
