@@ -261,3 +261,17 @@ Date:   Thu Jan 4 17:01:31 2024 -0300
  src/pages/index.astro   |  2 +-
  3 files changed, 29 insertions(+), 2 deletions(-)
 ```
+
+## Upgrade Starter
+
+- [Astro Docs. Upgrade to Astro v4](https://docs.astro.build/en/guides/upgrade-to/v4/)
+
+```bash
+victor@victorpc:astro-4-typescript-tailwind$ pwd
+/home/victor/Work/Learn/Astro/2023/coding-in-public/LearnAstro/dev/starters/astro-4-typescript-tailwind
+victor@victorpc:astro-4-typescript-tailwind$
+victor@victorpc:astro-4-typescript-tailwind$ git status
+On branch main
+nothing to commit, working tree clean
+victor@victorpc:astro-4-typescript-tailwind$ npx @astrojs/upgrade
+```
