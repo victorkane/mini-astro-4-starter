@@ -1,4 +1,10 @@
-# Module 3. Markdown and MDX
+# Mini Astro 4 Starter
+
+- Astro
+- Typescript
+- VS Code
+- Tailwind
+- How to upgrade
 
 ## Create Astro instance
 
