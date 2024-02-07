@@ -1,12 +1,20 @@
 # Mini Astro 4 Starter
 
+> Nothing brilliant here, just a convenience time saver repo I'm using right now for Astro projects
+
 - Astro
 - Typescript
 - VS Code
 - Tailwind
 - How to upgrade
 
-## Create Astro instance
+## To use
+
+- clone or fork, `npm i` then `npm run dev`
+
+## Steps taken to create this mini starter below:
+
+### Step 1. Create Astro instance
 
 ```text
 victor@victorpc:M03-markdown-and-mdx$ pwd
@@ -105,7 +113,7 @@ ictor@victorpc:M03-markdown-and-mdx$ npm run dev
 16:11:49 watching for file changes...
 ```
 
-## Astro VS Code support
+### Step 2. Astro VS Code support
 
 - Steps
 
@@ -187,7 +195,7 @@ Date:   Thu Jan 4 16:38:23 2024 -0300
  7 files changed, 257 insertions(+), 32 deletions(-)
 ```
 
-## Add Astro Tailwind integration
+### Step 3. Add Astro Tailwind integration
 
 ```bash
 victor@victorpc:M03-markdown-and-mdx$ npx astro add tailwind
@@ -268,7 +276,7 @@ Date:   Thu Jan 4 17:01:31 2024 -0300
  3 files changed, 29 insertions(+), 2 deletions(-)
 ```
 
-## Upgrade Starter
+### Step 4. Upgrade Starter
 
 - [Astro Docs. Upgrade to Astro v4](https://docs.astro.build/en/guides/upgrade-to/v4/)
 
