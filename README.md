@@ -256,7 +256,11 @@ Date:   Thu Jan 4 16:49:36 2024 -0300
 ```bash
 victor@victorpc:M03-markdown-and-mdx$ cat .vscode/extensions.json
 {
-  "recommendations": ["astro-build.astro-vscode", "bradlc.vscode-tailwindcss"],
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode"
+  ],
   "unwantedRecommendations": []
 }
 ```
