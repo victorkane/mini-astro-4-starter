@@ -121,7 +121,7 @@ ictor@victorpc:M03-markdown-and-mdx$ npm run dev
   - Install Prettier and the astro plugin
 
     ```bash
-    npm i --save-dev prettier prettier-plugin-astro
+    npm i --save-dev prettier
     ```
 
     - Add the following settings your (optionally user or workspace) settings:
